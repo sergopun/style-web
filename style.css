@@ -1,0 +1,39 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+}
+
+blockquote {
+    background-color: #e0f2fe;
+    border-left: 4px solid #0d2147;
+    padding: 10px 15px;
+    font-style: italic;
+    margin: 15px 0;
+}
+
+form {
+    border-radius: 10px;
+    border-color: cyan;
+    padding: 20px 25px;
+    border: 2px solid #0d2147;
+}
+
+h3{
+    color: #0d2147;
+    border-bottom: 2px solid #0d2147;
+    padding-bottom: 5px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 8px;
+}
