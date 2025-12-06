@@ -1,34 +1,9 @@
-header {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-family: "Segoe UI", Arial, sans-serif;
-}
-
-body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    background-color: #f9fafb;
-    color: #222;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
-
-
 blockquote {
     background-color: #e0f2fe;
     border-left: 4px solid #0d2147;
     padding: 10px 15px;
     font-style: italic;
     margin: 15px 0;
-}
-
-form {
-    border-radius: 10px;
-    border-color: cyan;
-    padding: 20px 25px;
-    border: 2px solid #0d2147;
 }
 
 h3{
@@ -43,6 +18,50 @@ a {
     margin: 0 8px;
 }
 
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+legend {
+    color: #0d2147;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+fieldset {
+    border: 2px solid #0d2147;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+button {
+    background-color: #0d2147;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+textarea {
+    max-width: 100%;
+    resize: none;
+}
+
 main{
     max-width: 1400px;
     margin: 30px auto;
@@ -53,11 +72,16 @@ main{
 }
 
 footer{ 
-    max-width: 1400px;
-    margin: 30px auto;
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(43, 42, 42, 0.1);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#h3{
+    color: #ffff;
+    border-bottom: 0px solid #ffff;
+    padding-bottom: 5px;
 }
 
