@@ -85,3 +85,19 @@ footer{
     padding-bottom: 5px;
 }
 
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
